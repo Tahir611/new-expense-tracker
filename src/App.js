@@ -9,7 +9,7 @@ import { GlobleProvider } from "./context/GlobalState";
 
 function App() {
   return (
-    <>
+    <> 
       <GlobleProvider>
         <div>
           <Header />
