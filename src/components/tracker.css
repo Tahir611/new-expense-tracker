@@ -1,0 +1,195 @@
+.container{
+    width: 350px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+body{
+    background-color: #f7f7f7;
+    font-family: "Lato",sans-serif;  
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.blns-div{
+    text-align: center;
+}
+
+.blns-div h1{
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+
+.blns-div h4{
+    padding-top: 25px;
+}
+
+.inc-exp-container{
+    background-color: #fff;
+    /* border: 1px solid grey; */
+    padding: 25px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.inc-exp-container>div{
+    flex: 1 1;
+    text-align: center;
+}
+
+.inc-exp-container>div:first-of-type{
+    border-right: 1px solid #dedede
+}
+
+.inc-div>div:first-of-type{
+    border-right: 1px solid #dedede
+}
+
+.money.plus{
+    font-weight: 700;
+    color: #b6960a;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.money.minus{
+    font-weight: 700;
+    color: rgb(45, 163, 173);
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.transection h3{
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin: 40px 0 10px;
+    text-align: center;
+}
+
+.addTransaction h3{
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin: 40px 0 10px;
+    text-align: center;
+}
+
+.list{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.list li.plus {
+    border-right: 5px solid rgb(182, 150, 10);
+}
+
+.list li.minus {
+    border-right: 5px solid rgb(45, 163, 173);
+}
+
+.list li.plus:hover{
+    background-color: rgb(182, 150, 10);
+    color: #fff;
+    
+}
+
+.list li.minus:hover{
+    background-color: rgb(45, 163, 173);
+    color: #fff;
+    
+}
+
+.list li {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);;
+    color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.delete-btn {
+    cursor: pointer;
+    background-color: rgb(138, 106, 102);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translate(-100%, -50%);
+    /* opacity: 0; */
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px 5px;
+    transition: opacity 0.3s ease 0s;
+}
+
+.addTransaction label {
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.addTransaction input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .addTransaction input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+.addTransaction input[type=text]:focus {
+    border: 2px solid #555;
+  }
+
+  .btn{
+    cursor: pointer;
+    background-color: #1976d2;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    color: #fff;
+    border: 0;
+    margin: 10px 0 30px;
+    font-weight: 700;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+
