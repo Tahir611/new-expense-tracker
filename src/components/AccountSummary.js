@@ -12,10 +12,10 @@ const AccountSummary = () => {
     .reduce((acc, transaction) => (acc += transaction), 0)
     .toFixed(2)
 
-    const expense = Math.abs(transactionAmounts
+    const expense = transactionAmounts
     .filter(transaction => transaction < 0)
     .reduce((acc, transaction) => (acc += transaction), 0)
-    .toFixed(2))
+    .toFixed(2);
 
   return (
     <>
@@ -23,14 +23,14 @@ const AccountSummary = () => {
         <div>
             <h4>Income</h4>
             <p className='money plus'>
-                +{income}
+                {income}
             </p>
         </div>
 
         <div>
             <h4>Expense</h4>
             <p className='money minus'>
-                -{expense}
+                {expense}
             </p>
         </div>
     </div>
